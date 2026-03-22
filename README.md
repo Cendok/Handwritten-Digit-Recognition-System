@@ -189,9 +189,9 @@ http://127.0.0.1:1235/
 
 ## 界面展示
 
-![display1](E:\starta\Handwritten-Digit-Recognition-System\display1.png)
+![display1](/display1.png)
 
-![display2](E:\starta\Handwritten-Digit-Recognition-System\display2.png)
+![display2](/display2.png)
 
 
 
@@ -199,6 +199,6 @@ http://127.0.0.1:1235/
 
 ### 移动端
 
-![display1-mobile](E:\starta\Handwritten-Digit-Recognition-System\display1-mobile.jpg)
+![display1-mobile](/display1-mobile.jpg)
 
-![display2-mobile](E:\starta\Handwritten-Digit-Recognition-System\display2-mobile.jpg)
+![display2-mobile](/display2-mobile.jpg)
