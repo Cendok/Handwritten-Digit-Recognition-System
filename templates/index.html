@@ -1,0 +1,321 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Handwritten-Digit-Recognition-System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- All css here -->
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../static/css/animate.css">
+        <link rel="stylesheet" href="../static/css/slick.css">
+        <link rel="stylesheet" href="../static/css/meanmenu.css">
+        <link rel="stylesheet" href="../static/css/default.css">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/responsive.css">
+    </head>
+
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience and security.</p>
+            <![endif]-->
+            <!--  ====== preloader=============================================  -->
+            <div id="preloader">
+                <div id="loading">
+                    <div id="loading-center">
+                        <div id="loading-center-absolute">
+                        <div class="object" id="object_one"></div>
+                        <div class="object" id="object_two"></div>
+                        <div class="object" id="object_three"></div>
+                        <div class="object" id="object_four"></div>
+                        <div class="object" id="object_five"></div>
+                        <div class="object" id="object_six"></div>
+                        <div class="object" id="object_seven"></div>
+                        <div class="object" id="object_eight"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /preloader -->
+
+        <!--  ====== header-area-start=======================================  -->
+        <header>
+            <div id="header-sticky" class="transparent-header header-area">
+                <div class="header header6">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col-4">
+                                <div class="logo d-inline-block">
+                                    <a href="index.html"><img class="transition-3" src="../static/picture/logo-white.png" alt="2020"></a>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-8 col-lg-9 col-md-8 col-sm-8 col-8 d-flex justify-content-end">
+                               <div class="main-menu">
+                                   <nav id="mobile-menu">
+                                        <ul class="d-block">
+                                            <li>
+                                                <a class="active text-white" href="#home">Home</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-white" href="#about">Recognition</a>
+                                            </li>
+
+                                        </ul>
+                                   </nav>
+                               </div><!-- /main-menu -->
+                               <div class="header-right d-flex align-items-center justify-content-end">
+                                    <div class="d-block d-lg-none ml-30">
+                                        <a class="mobile-menubar text-white" href="javascript:void(0);"><i class="far fa-bars"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+            </div><!-- /header-bottom -->
+        </header>
+        <!--  header-area-end  -->
+
+
+        <!--  ====== header extra info start================================== -->
+            <!-- side-mobile-menu start -->
+        <div class="side-mobile-menu bg-white pt-50  pb-30 pl-30 pr-30">
+            <div class="close-icon float-right pt-10 mb-20">
+                <a href="javascript:void(0);"><span class="icon-clear theme-color"><i class="fa fa-times"></i></span></a>
+            </div>
+            <div class="mobile-menu"></div>
+        </div><!-- /side-mobile-menu -->
+
+        <div class="body-overlay"></div>
+        <!-- header extra info end  -->
+
+        <main>
+            <!-- ======slider-area-start=========================================== -->
+            <div id="home" class="slider-area slider6-bg overly4  d-flex align-items-center justify-content-center position-relative over-hidden no-repeat bg-cover">
+                <video id="background-video" class="position-absolute w-100 h-100 left-0 right-0 top-0 bottom-0 z-index-1" autoplay="" loop="" muted="" poster="../images/banner/video-bg.mp4">
+                    <source src="../images/banner/video-bg.mp4" type="video/mp4">
+                  </video>
+                <div class="container">
+                    <div class="single-slider">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-xl-8  col-lg-8 col-md-8  col-sm-10 col-12">
+                                <div class="slider-content mt--20 text-center z-index1">
+                                    <h1 class="text-white wow fadeInUp f-700 pb-30" data-wow-delay=".1s" data-wow-duration="1.5s">Face-Comparison-System-V2</h1>
+                                    <a href="#" class="btn theme-bg mt-30 wow fadeInUp" data-wow-delay=".8s" data-wow-duration="2s">Full Contents</a>
+                                </div>
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                     </div>
+                </div><!-- /container -->
+            </div>
+            <!-- slider-area-end=  -->
+
+            <!-- ====== about-area-start=========================================== -->
+            <div id="about" class="about-area mt-95 over-hidden">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 offset-xl-0 col-lg-5 offset-lg-0 col-md-10 offset-md-1 col-sm-12 col-12">
+                            <div class="about-img text-center wow fadeInLeft" data-wow-duration="1.6s">
+                                <img src="../static/picture/about-img.png" alt="">
+                            </div><!-- /about-img -->
+                        </div><!-- /col -->
+
+                        <div class="col-xl-7  col-lg-7  col-md-12 col-sm-12 col-12">
+                            <div class="about-content mt-35 mb-50 pt-10">
+                                <div class="title">
+                                    <span class="sub-heading d-block f-700 theme-color mb-10">Recognition</span>
+                                    <h3 class="f-700">Handwritten-Digit-Recognition-System</h3>
+                                </div>
+
+                                <!-- End Upcoming Events Section -->
+                                <div class="btn-2 position-relative d-inline-block mt-30">
+                                    <a href="#" class="primary-color f-700 d-block wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".7s">Top</a>
+                                </div>
+                            </div><!-- /about-content -->
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+            <!-- about-area-end -->
+
+        </main>
+<!-- Start Upcoming Events Section -->
+        <section class="bg-upcoming-events">
+            <div class="container">
+                <div class="row">
+                    <div class="upcoming-events">
+                        <div class="section-header">
+                            <h1>&#128519;</h1>
+                            <p>上传待识别的数字图像，点击预测按钮进行识别</p>
+                        </div>
+                        <style>
+                            .section-header {
+                                text-align: center; /* 使文本居中 */
+                                margin: 20px; /* 添加一些外边距，便于视觉效果 */
+                            }
+                        </style>
+                        <!-- .section-header -->
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3 style="color: black;">待识别图像</h3>
+                                <div>
+                                    <!--                 href="javascript:;"-->
+                                    <input href="javascript:;" class="btn btn-default" tabindex="0" type="file" name="file"
+                                           id="file0">
+
+                                    </input>
+                                    <p></p>
+                                    <img src="" id="img0">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .col-lg-6 -->
+                        <div>
+                            <!--                style="margin-top:20px;width: 35rem;height: 30rem; padding-left: 20px"-->
+                            <input class="btn btn-default" type="button" id="b0"
+                                   onclick="test0()" style="color: #000000"
+                                   value="预测">
+                            <p></p>
+                            <pre id="out">点击预测获取识别结果</pre>
+                            <!--                <pre id="out" style="width:320px;height:50px;line-height: 50px;margin-top:20px;"></pre>-->
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .upcoming-events -->
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </section>
+        <!-- ====== footer-area-start ============================================ -->
+        <footer>
+            <div class="footer-area over-hidden wow fadeInUp" data-wow-duration="1.6s">
+                <div class="footer-top pb-80">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4  col-lg-4  col-md-6  col-sm-7 col-12 pr-xl-0">
+                                <div class="footer-widget f-adress pb-40 mt-30">
+                                    <h6 class="text-capitalize f-700 mb-22">Contacts</h6>
+                                    <ul class="footer-address">
+                                        <li>
+                                            <span class="f-icon mr-20 mt-1"><i class="far fa-envelope"></i></span>
+                                            Syi19691@gmail.com
+                                        </li>
+                                        <li>
+                                            <span class="f-icon mr-20 mt-1"><i class="far fa-phone"></i></span>8177010
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+                <div class="footer-bottom mb-35">
+                    <div class="container">
+                        <div class="copyright-area mt-20 pb-25">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12">
+                                    <div class="copyright-text text-center text-md-left mt-20">
+                                        <p class="mb-0">Copyright &copy; 2023.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></a>
+                                        </p>
+                                    </div>
+                                </div><!-- /col -->
+                                <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12">
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div><!-- /copyright-area -->
+                    </div><!-- /container -->
+                </div>
+            </div>
+        </footer>
+
+        <!-- back top -->
+        <div class="scroll-up" id="scroll">
+            <a href="#" class="theme-bg text-white d-block text-center position-fixed mr-10 transition5">
+                <span><i class="fal fa-angle-double-up"></i></span>
+            </a>
+        </div>
+
+        <!-- All js here -->
+        <script src="../static/js/modernizr-3.5.0.min.js"></script>
+        <script src="../static/js/jquery-1.12.4.min.js"></script>
+        <script src="../static/js/popper.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/one-page-nav-min.js"></script>
+        <script src="../static/js/slick.min.js"></script>
+        <script src="../static/js/wow.min.js"></script>
+        <script src="../static/js/plugins.js"></script>
+        <script src="../static/js/jquery.meanmenu.min.js"></script>
+        <script src="../static/js/main.js"></script>
+
+
+        <script>
+    /*https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json*/
+    L2Dwidget.init({ "model": { jsonPath:
+          "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+        "scale": 1 }, "display": { "position": "left", "width": 110, "height": 150,
+        "hOffset": 0, "vOffset": -20 }, "mobile": { "show": true, "scale": 0.5 },
+      "react": { "opacityDefault": 0.8, "opacityOnHover": 0.1 } });
+        </script>
+
+        <script type="text/javascript">
+        $("#file0").change(function () {
+            var objUrl = getObjectURL(this.files[0]);//获取文件信息
+            console.log("objUrl = " + objUrl);
+            if (objUrl) {
+                $("#img0").attr("src", objUrl);
+            }
+        });
+
+        function test0() {
+            var fileobj0 = $("#file0")[0].files[0];
+            var form = new FormData();
+            form.append("file0", fileobj0);
+            var out = '';
+            $.ajax({
+                type: 'POST',
+                url: "predict",
+                data: form,
+                async: false,       //同步执行
+                processData: false, // 告诉jquery要传输data对象
+                contentType: false, //告诉jquery不需要增加请求头对于contentType的设置
+                success: function (arg) {
+                    console.log(arg)
+                    out = arg.result
+                    err = arg.err
+                }, error: function () {
+                    console.log("后台处理错误");
+                }
+            });
+
+            // if(oushi!==undefined){document.getElementById("oushi").innerText = oushi;}
+            // if(fazhi!==undefined){document.getElementById("fazhi").innerText = fazhi;}
+            if (err !== undefined) {
+                document.getElementById("out").innerText = err;
+            }
+            if (out !== undefined) {
+                document.getElementById("out").innerHTML = out;
+            }
+
+        }
+
+        function getObjectURL(file) {
+            var url = null;
+            if (window.createObjectURL != undefined) {
+                url = window.createObjectURL(file);
+            } else if (window.URL != undefined) { // mozilla(firefox)
+                url = window.URL.createObjectURL(file);
+            } else if (window.webkitURL != undefined) { // webkit or chrome
+                url = window.webkitURL.createObjectURL(file);
+            }
+            return url;
+        }
+        </script>
+
+        </body>
+
+</html>
