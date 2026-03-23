@@ -202,3 +202,5 @@ http://127.0.0.1:1235/
 ![display1-mobile](/display1-mobile.jpg)
 
 ![display2-mobile](/display2-mobile.jpg)
+
+这样就实现了拍摄数字，识别数字大小的功能
