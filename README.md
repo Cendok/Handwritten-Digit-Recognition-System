@@ -176,7 +176,7 @@ Javascript用模板自带的别改
 
 
 
-## 访问
+## 运行app.py，访问网站
 
 ```
 http://localhost:1235/
